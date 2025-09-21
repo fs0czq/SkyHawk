@@ -15,7 +15,6 @@
 
 * 🚀 Çoklu iş parçacığı ile hızlandırılmış port tarama (`ThreadPoolExecutor`)
 * 🌐 ARP tabanlı cihaz keşfi (Scapy)
-* 🔍 Port → servis eşleştirmesi (`ports.py`)
 * 🌎 HTTP/HTTPS servis doğrulama (requests)
 * 🎨 Renkli ve okunabilir CLI çıktıları (`colorama`)
 * 📝 Tüm sonuçların `scan_results.log` dosyasına kaydedilmesi
