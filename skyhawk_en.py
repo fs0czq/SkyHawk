@@ -88,7 +88,7 @@ def network_scan(ip_range, timeout=10, no_web_check=False):
 
         for _, received in result:
             try:
-                hostname = socket.gethostbyaddr(received.psrc)[0].replace(".modem.turktelekom", "").replace("-adli-kisiye-ait-", " ").replace("-", " ")
+                hostname = socket.gethostbyaddr(received.psrc)[0]
             except socket.herror:
                 hostname = "Unknown Host"
 
