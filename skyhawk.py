@@ -88,7 +88,7 @@ def ag_taramasi(aralik, timeout=10, no_web_check=False):
 
         for _, alınan in sonuc:
             try:
-                hostname = socket.gethostbyaddr(alınan.psrc)[0].replace(".modem.turktelekom", "").replace("-adli-kisiye-ait-", " ").replace("-", " ")
+                hostname = socket.gethostbyaddr(alınan.psrc)[0].replace("-adli-kisiye-ait-", " ").replace("-", " ")
             except socket.herror:
                 hostname = "Bilinmeyen Host"
 
